@@ -68,3 +68,11 @@ The application used for the CI-CD demonstration consists of the following compo
     - Click [_here_](../CD) for build instruction
 
     </br>
+
+5. **Payment** - This component is a Python based API code used to interact with RabbitMQ server and process payments.
+
+    - Click [_here_](./payment) for the source code.
+ 
+    - Click [_here_](../CD) for build instruction
+
+    </br>
