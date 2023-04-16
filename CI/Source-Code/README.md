@@ -16,3 +16,12 @@ The application used for the CI-CD demonstration consists of the following compo
  
     - Click [_here_](../CD) for build instruction
 
+    </br>
+
+3. **Catalogue** - This component consists of NodeJS API code used to interact with MongoDB component and fetch Catalogue data to present to end user.
+
+    - Click [_here_](./catalogue) for the source code.
+ 
+    - Click [_here_](../CD) for build instruction
+
+    </br>
