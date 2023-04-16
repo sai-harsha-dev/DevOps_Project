@@ -6,4 +6,13 @@
 
 The application used for the CI-CD demonstration consists of the following components :-
 
-1. **FRONTEND** - This component has the source code for generating User Interface that is presented over the web for end user interaction, Click [_here_](./frontend) for the source code.
+1. **FRONTEND** - This component has the source code for generating User Interface that is presented over the web for end user interaction.
+
+    - Click [_here_](./frontend) for the source code.
+    
+    </br>
+
+2. **MongoDB** - This component is used to store the User and Catalogue information used by the website.
+ 
+    - Click [_here_](../CD) for build instruction
+
