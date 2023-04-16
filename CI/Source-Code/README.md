@@ -25,3 +25,9 @@ The application used for the CI-CD demonstration consists of the following compo
     - Click [_here_](../CD) for build instruction
 
     </br>
+
+4. **Redis** - This component is a Redis cache server used to cache Cart and User information.
+
+    - Click [_here_](../CD) for build instruction
+
+    </br>
