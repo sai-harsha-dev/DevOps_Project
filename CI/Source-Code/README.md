@@ -31,3 +31,11 @@ The application used for the CI-CD demonstration consists of the following compo
     - Click [_here_](../CD) for build instruction
 
     </br>
+
+5. **User** - This component is a NodeJS API code used to interact with MongoDB server and fetch User information
+
+    - Click [_here_](./user) for the source code.
+ 
+    - Click [_here_](../CD) for build instruction
+
+    </br>
