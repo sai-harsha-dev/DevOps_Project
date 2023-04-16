@@ -54,3 +54,11 @@ The application used for the CI-CD demonstration consists of the following compo
     - Click [_here_](../CD) for build instruction
 
     </br>
+
+5. **Shipping** - This component is a Java based API code used to interact with MySQL server and create shipping of the iteams in cart.
+
+    - Click [_here_](./shipping) for the source code.
+ 
+    - Click [_here_](../CD) for build instruction
+
+    </br>
