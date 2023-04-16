@@ -62,3 +62,9 @@ The application used for the CI-CD demonstration consists of the following compo
     - Click [_here_](../CD) for build instruction
 
     </br>
+
+2. **RabbitMQ** - This component is used to store the Payment information used by the website and send notification to user's after payment completion using message queue service.
+ 
+    - Click [_here_](../CD) for build instruction
+
+    </br>
