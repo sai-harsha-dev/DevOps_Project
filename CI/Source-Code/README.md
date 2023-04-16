@@ -47,3 +47,10 @@ The application used for the CI-CD demonstration consists of the following compo
     - Click [_here_](../CD) for build instruction
 
     </br>
+
+
+2. **MySQL** - This component is used to store the Shipping information used by the website.
+ 
+    - Click [_here_](../CD) for build instruction
+
+    </br>
