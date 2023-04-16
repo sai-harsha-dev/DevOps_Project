@@ -76,3 +76,11 @@ The application used for the CI-CD demonstration consists of the following compo
     - Click [_here_](../CD) for build instruction
 
     </br>
+
+5. **Dispatch** - This component is a Golang based API code used to interact with RabbitMQ server and process dispatch.
+
+    - Click [_here_](./dispatch) for the source code.
+ 
+    - Click [_here_](../CD) for build instruction
+
+    </br>
