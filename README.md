@@ -1,5 +1,5 @@
 # DevOps_Project
-This is a sample website with multiple components used to demonstrate the the different stages of CI/CD pipeline.
+This is a sample website with multiple components used to demonstrate the different stages of CI/CD pipeline.
 
 ## Setup Workflow
 ---
