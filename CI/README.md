@@ -3,7 +3,7 @@ The main function of **CI** is to facilitate the process of automated and zero-d
 
 ## CI Setup
 ---
-![CI-setup-workflow](DevOps_Project_Flowchart_CI_image.png)
+![CI-setup-workflow](DevOps_Project_Flowchart_CI_Image.png)
 
 The above diaghram illustrates the components invovled implementing Continues Integration in this project.
 
