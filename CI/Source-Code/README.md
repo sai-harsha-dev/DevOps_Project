@@ -9,12 +9,14 @@ The application used for the CI-CD demonstration consists of the following compo
 1. **FRONTEND** - This component has the source code for generating User Interface that is presented over the web for end user interaction.
 
     - Click [_here_](./frontend) for the source code.
+
+    - Click [_here_](../Build) for build instruction
     
     </br>
 
 2. **MongoDB** - This component is used to store the User and Catalogue information used by the website.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
@@ -22,13 +24,13 @@ The application used for the CI-CD demonstration consists of the following compo
 
     - Click [_here_](./catalogue) for the source code.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
 4. **Redis** - This component is a Redis cache server used to cache Cart and User information.
 
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
@@ -36,7 +38,7 @@ The application used for the CI-CD demonstration consists of the following compo
 
     - Click [_here_](./user) for the source code.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
@@ -44,14 +46,14 @@ The application used for the CI-CD demonstration consists of the following compo
 
     - Click [_here_](./cart) for the source code.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
 
 2. **MySQL** - This component is used to store the Shipping information used by the website.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
@@ -59,13 +61,13 @@ The application used for the CI-CD demonstration consists of the following compo
 
     - Click [_here_](./shipping) for the source code.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
 2. **RabbitMQ** - This component is used to store the Payment information used by the website and send notification to user's after payment completion using message queue service.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
@@ -73,7 +75,7 @@ The application used for the CI-CD demonstration consists of the following compo
 
     - Click [_here_](./payment) for the source code.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
 
@@ -81,6 +83,6 @@ The application used for the CI-CD demonstration consists of the following compo
 
     - Click [_here_](./dispatch) for the source code.
  
-    - Click [_here_](../CD) for build instruction
+    - Click [_here_](../Build) for build instruction
 
     </br>
