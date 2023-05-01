@@ -15,3 +15,5 @@ The above diaghram illustrates the components invovled implementing Continues In
 ## CI Stages Setup
 ---
 1. **Source Code** - Refer [_Source Code_](./Source-Code) folder.
+
+1. **Build** - Refer [_Build_](./Build) folder.
