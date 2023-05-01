@@ -10,7 +10,7 @@ The application used for the CI-CD demonstration consists of the following compo
 
     - Click [_here_](./frontend) for the source code.
 
-    - Click [_here_](../Build) for build instruction
+    - Click [_here_](../Build/frontend) for build instruction
     
     </br>
 
