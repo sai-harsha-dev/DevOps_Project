@@ -18,11 +18,11 @@ The following steps are to be performed to build the  frontend component
 
     2. **STEP 3** -  Create a Jenkins job [ **complete the [jenkins_setup](../../CD) section before performing this step** ], follow the mentioned steps below.
 
-        - Login to the jenkins console, use the username and password setup in the [jenkins_setup](Images/../../CD) section
+        - Login to the jenkins console, use the username and password setup in the [jenkins_setup](../Images/../../CD) section
 
         </br>
 
-        ![Alt text](Images/jenkins-login.png)
+        ![Alt text](../Images/jenkins-login.png)
 
         </br>
         
@@ -30,7 +30,7 @@ The following steps are to be performed to build the  frontend component
         
         </br>
 
-        ![Alt text](Images/jenkins-job.png)
+        ![Alt text](../Images/jenkins-job.png)
 
         </br>
 
@@ -38,11 +38,11 @@ The following steps are to be performed to build the  frontend component
 
         </br>
         
-        ![Alt text](Images/job-config1.png)
+        ![Alt text](../Images/job-config1.png)
 
         </br>
 
-        ![Alt text](Images/jenkins-config2.png)
+        ![Alt text](../Images/jenkins-config2.png)
 
         </br>
 
@@ -51,7 +51,7 @@ The following steps are to be performed to build the  frontend component
         </br>
 
 
-        ![Alt text](Images/git-webhook1.png)
+        ![Alt text](../Images/git-webhook1.png)
 
         </br>
 
@@ -59,7 +59,7 @@ The following steps are to be performed to build the  frontend component
         
         </br>
 
-        ![Alt text](Images/jenkins-webhook-config.png)
+        ![Alt text](../Images/jenkins-webhook-config.png)
 
         </br>
 
@@ -69,7 +69,7 @@ The following steps are to be performed to build the  frontend component
 
          </br>
 
-         ![Alt text](Images/nexus-create-docker-repository.png)
+         ![Alt text](../Images/nexus-create-docker-repository.png)
 
          </br>
 
@@ -77,7 +77,7 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-         ![Alt text](Images/nexus-docker-repo-config.png)
+         ![Alt text](../Images/nexus-docker-repo-config.png)
 
          </br>
  
@@ -88,7 +88,7 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-        ![Alt text](Images/jenkins-nexus-crenditials.png)
+        ![Alt text](../Images/jenkins-nexus-crenditials.png)
 
         </br>
 
@@ -96,7 +96,7 @@ The following steps are to be performed to build the  frontend component
         
         </br>
 
-        ![Alt text](Images/jenkins-nexus-crenditials-config.png)
+        ![Alt text](../Images/jenkins-nexus-crenditials-config.png)
 
         
         </br>
@@ -108,11 +108,11 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-        ![Alt text](Images/jenkins-pulgin.png)
+        ![Alt text](../Images/jenkins-pulgin.png)
 
         </br>
 
-        ![Alt text](Images/jenkins-gitplugin.png)
+        ![Alt text](../Images/jenkins-gitplugin.png)
         
         </br>
  
@@ -121,7 +121,7 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-        ![Alt text](Images/jenkins-job2.png)
+        ![Alt text](../Images/jenkins-job2.png)
 
         </br>
 
@@ -129,12 +129,12 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-        ![Alt text](Images/parameter-name.png) 
+        ![Alt text](../Images/parameter-name.png) 
         
         </br>
 
 
-        ![Alt text](Images/jenkins-job2.png)
+        ![Alt text](../Images/jenkins-job2.png)
 
         </br>
 
@@ -142,7 +142,7 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-        ![Alt text](Images/jenkins-job2-config2.png)
+        ![Alt text](../Images/jenkins-job2-config2.png)
 
         </br>
 
@@ -154,12 +154,12 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-        ![Alt text](Images/jenkins-job2-config4.png)
-        ![Alt text](Images/jenkins-job2-config5.png)
+        ![Alt text](../Images/jenkins-job2-config4.png)
+        ![Alt text](../Images/jenkins-job2-config5.png)
 
         </br>
         
-        ![Alt text](Images/jenkins-job2-config6.png)
+        ![Alt text](../Images/jenkins-job2-config6.png)
 
         </br>
 
@@ -176,19 +176,19 @@ The following steps are to be performed to build the  frontend component
         
         </br>
 
-        ![Alt text](Images/jenkins-job2-config8.png)
+        ![Alt text](../Images/jenkins-job2-config8.png)
         
         </br>
 
-        - In Post Build Section **Add post build action > Git publisher > Select Push Only If Build Succeeds > Input remote branch to push to in Branch to push > The remote url (_i.e upstream URL_) name in Target remote name > Click Save.**
+        - In Post Build Section **Add post build action > Git publisher > Select Push Only If Build Succeeds > Input remote branch to push to in Branch to push > The remote url (_i.e upstream URL_) name in Target remote name > Click Save.**k
 
         </br>
 
-        ![Alt text](Images/jenkins-job2-config9.png)
+        ![Alt text](../Images/jenkins-job2-config9.png)
         
         </br>
 
-        ![Alt text](Images/jenkins-job2-config10.png)
+        ![Alt text](../Images/jenkins-job2-config10.png)
 
         </br>
         
@@ -205,10 +205,15 @@ The following steps are to be performed to build the  frontend component
 
         </br>
 
-        ![Alt text](Images/jenkins-job-run.png)
+        ![Alt text](../Images/jenkins-job-run.png)
         
 
-    
+        </br>
+
+### Next Step
+---
+
+Go to the [_Build_](../../Build/) for folder for instructions to build the rest of the components left. 
         
 
         
