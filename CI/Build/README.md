@@ -8,3 +8,5 @@ This folder has the build instruction for all components in this website.
 1. **FRONTEND** - Refer [_here_](frontend)
 
 2. **MONGO-DB** - Refer [_here_](mongodb)
+
+3. **CATALOGUE** - Refer [_here_](catalogue)
