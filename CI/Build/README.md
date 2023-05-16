@@ -10,3 +10,5 @@ This folder has the build instruction for all components in this website.
 2. **MONGO-DB** - Refer [_here_](mongodb)
 
 3. **CATALOGUE** - Refer [_here_](catalogue)
+
+4. **REDIS** - Refer [_here_](redis)
