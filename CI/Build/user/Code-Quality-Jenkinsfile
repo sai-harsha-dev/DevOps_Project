@@ -1,0 +1,22 @@
+pipeline {
+    agent any 
+
+    stages{
+
+        stage('SonarQube analysis'){
+
+            steps{
+                def scannerHome = tool 'Sonarscanner-4.8.0';
+                withSonarQubeEnv('sonar-server1') { 
+                    sh "${scannerHome}/bin/sonar-scanner -Dproject.settings=sonar-project.properties" }
+            }
+        }
+
+        stage('Quality Gate'){
+
+            steps{
+                waitForQualityGate abortPipeline: true
+            }
+        }   
+
+    }
