@@ -12,3 +12,6 @@ This folder has the build instruction for all components in this website.
 3. **CATALOGUE** - Refer [_here_](catalogue)
 
 4. **REDIS** - Refer [_here_](redis)
+
+4. **USER** - Refer [_here_](user)
+
