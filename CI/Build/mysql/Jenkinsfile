@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+
+    parameters{
+        string defaultValue: 'localhost:8082', name: 'REPOSITORY'
+        string defaultValue: '${env.BUILD_ID}', name: 'REVISION'
+    }
+
+    stages{
+        
+        stage("Build image"){
+            steps{
+                sh 'docker build -t ${REPOSITORY}/mysql:${REVISION} .'
+            }
+        }
+        stage("Upload Image to NEXUS"){
+            steps{ 
+                withCredentials([string(credentialsId: 'nexus-password', variable: 'NEXUS_PAASWD')]) {
+                sh 'docker login -u admin -p ${NEXUS_PAASWD} ${REPOSITORY}'
+                sh 'docker push ${REPOSITORY}/mysql:${REVISION}'
+                }
+            }
+        }}
+    
+        stage("Trigger helm chart update"){
+            post {
+                success {
+                    build job: 'Update-helm-charts', parameters: [string(name: 'IMAGE', value: "${params.REPOSITORY}/mysql:${params.REVISION}")]
+                }
+            }
+
+        }
+}
