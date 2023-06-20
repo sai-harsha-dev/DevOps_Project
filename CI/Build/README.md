@@ -18,3 +18,5 @@ This folder has the build instruction for all components in this website.
 6. **CART** - Refer [_here_](cart)
 
 7. **MYSQL** - Refer [_here_](mysql)
+
+7. **SHIPPING** - Refer [_here_](shipping)
