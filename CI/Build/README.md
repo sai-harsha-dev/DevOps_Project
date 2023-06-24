@@ -19,4 +19,6 @@ This folder has the build instruction for all components in this website.
 
 7. **MYSQL** - Refer [_here_](mysql)
 
-7. **SHIPPING** - Refer [_here_](shipping)
+8. **SHIPPING** - Refer [_here_](shipping)
+
+8. **RABBITMQ** - Refer [_here_](rabbitmq)
