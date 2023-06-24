@@ -167,9 +167,9 @@ The following steps are to be performed to configure RabbitMQ server.
         </br>
 
         ```console
-           sed -i '/^image:.*$/d' templates/mysql/values.yaml
-           echo "image: ${IMAGE}" >> templates/mysql/values.yaml 
-           git add templates/mysql/values.yaml
+           sed -i '/^image:.*$/d' templates/rabbitmq/values.yaml
+           echo "image: ${IMAGE}" >> templates/rabbitmq/values.yaml 
+           git add templates/rabbitmq/values.yaml
            git commit -m "updated image to ${IMAGE}" 
         ```
         
