@@ -21,4 +21,6 @@ This folder has the build instruction for all components in this website.
 
 8. **SHIPPING** - Refer [_here_](shipping)
 
-8. **RABBITMQ** - Refer [_here_](rabbitmq)
+9. **RABBITMQ** - Refer [_here_](rabbitmq)
+
+10. **PAYMENT** - Refer [_here_](payment)
