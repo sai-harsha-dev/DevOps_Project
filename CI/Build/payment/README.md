@@ -322,9 +322,9 @@ The following steps are to be performed to build the payment component
         </br>
 
         ```console
-           sed -i '/^image:.*$/d' templates/shipping/values.yaml
-           echo "image: ${IMAGE}" >> templates/shipping/values.yaml 
-           git add templates/shipping/values.yaml
+           sed -i '/^image:.*$/d' templates/payment/values.yaml
+           echo "image: ${IMAGE}" >> templates/payment/values.yaml 
+           git add templates/payment/values.yaml
            git commit -m "updated image to ${IMAGE}" 
         ```
         
