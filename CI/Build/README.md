@@ -24,3 +24,5 @@ This folder has the build instruction for all components in this website.
 9. **RABBITMQ** - Refer [_here_](rabbitmq)
 
 10. **PAYMENT** - Refer [_here_](payment)
+
+11. **DISPATCH** - Refer [_here_](dispatch)
